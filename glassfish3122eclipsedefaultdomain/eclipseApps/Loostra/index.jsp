@@ -8,6 +8,8 @@
     	<title>GlassFish JSP Page</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <form method="POST" action="HomeFeed">
+    	<input type="submit" value="Replace with Login">
+    </form>
   </body>
 </html> 
