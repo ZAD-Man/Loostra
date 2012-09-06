@@ -14,9 +14,9 @@
 	</form>
 	<br>
 	<!-- Profile should be /Profile/[Username] -->
-	<a href="/Profile">Profile</a>
-	<a href="/Bank">Purchase Betoons</a>
-	<a href="/Updates">Updates</a>
+	<a href="./Profile">Profile</a>
+	<a href="./Store">Purchase Betoons</a>
+	<a href="./Updates">Updates</a>
 	
 </body>
 </html>

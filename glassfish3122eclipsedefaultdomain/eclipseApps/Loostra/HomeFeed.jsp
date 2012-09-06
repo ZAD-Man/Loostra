@@ -4,9 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>HomeFeed</title>
 </head>
 <body>
-
+	<!-- Profile, Bank, Messages, Search form, Updates -->
+	<form method="POST" action="/Search">
+		<input type="text" name="searchField">
+		<input type="submit" value="Search">
+	</form>
+	<br>
+	<!-- Profile should be /Profile/[Username] -->
+	<a href="./Profile">Profile</a>
+	<a href="./Store">Purchase Betoons</a>
+	<a href="./Updates">Updates</a>
+	
 </body>
 </html>

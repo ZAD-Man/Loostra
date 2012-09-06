@@ -7,12 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Display profile here<br>
-	If it's your own: <br>
-	<a href="./EditProfile">Edit Profile</a><br>
-	<a href="./AddSkill">Add Skill</a><br>
-	<a href="./AddWant">Add Want</a><br>
-	If it's another's: <br>
-	<a href="./Review">Review</a><br>
+	<form method="POST" action="PostReview">
+		Do review form here
+	</form>
 </body>
 </html>
