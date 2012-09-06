@@ -1,5 +1,12 @@
 <domain log-root="${com.sun.aas.instanceRoot}/logs" application-root="${com.sun.aas.instanceRoot}/applications" version="5">
-  <system-applications></system-applications>
+  <system-applications>
+    <application context-root="" location="${com.sun.aas.installRootURI}/lib/install/applications/__admingui" name="__admingui" directory-deployed="true" object-type="system-admin">
+      <module name="__admingui">
+        <engine sniffer="web"></engine>
+        <engine sniffer="security"></engine>
+      </module>
+    </application>
+  </system-applications>
   <applications>
     <application context-root="/Loostra" location="${com.sun.aas.instanceRootURI}/eclipseApps/Loostra/" name="Loostra" directory-deployed="true" object-type="user">
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/Loostra/"></property>
@@ -29,6 +36,7 @@
   </resources>
   <servers>
     <server name="server" config-ref="server-config">
+      <application-ref ref="__admingui" virtual-servers="__asadmin"></application-ref>
       <application-ref ref="Loostra" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
       <resource-ref ref="jdbc/__default"></resource-ref>
@@ -387,6 +395,7 @@
       <thread-pools>
         <thread-pool name="http-thread-pool"></thread-pool>
         <thread-pool max-thread-pool-size="200" name="thread-pool-1"></thread-pool>
+        <thread-pool name="admin-thread-pool" max-thread-pool-size="50" max-queue-size="256"></thread-pool>
       </thread-pools>
       <group-management-service>
         <failure-detection></failure-detection>

@@ -702,3 +702,75 @@ java.net.BindException: No free port within range: 7676=com.sun.enterprise.v3.se
 
 [#|2012-09-05T23:39:53.783-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-2;|Loostra was successfully deployed in 5,270 milliseconds.|#]
 
+[#|2012-09-06T08:17:41.556-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=20;_ThreadName=Thread-2;|The Admin Console is installing...|#]
+
+[#|2012-09-06T08:17:44.191-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=20;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
+
+[#|2012-09-06T08:17:44.191-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=20;_ThreadName=Thread-2;|The Admin Console is starting. Please wait.|#]
+
+[#|2012-09-06T08:18:36.848-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.ejb.com.sun.ejb.containers|_ThreadID=21;_ThreadName=Thread-2;|Created EjbThreadPoolExecutor with thread-core-pool-size 16 thread-max-pool-size 32 thread-keep-alive-seconds 60 thread-queue-capacity 2147483647 allow-core-thread-timeout false |#]
+
+[#|2012-09-06T08:20:23.650-0600|INFO|glassfish3.1.2|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=20;_ThreadName=Thread-2;|Initializing Mojarra 2.1.6 (SNAPSHOT 20111206) for context ''|#]
+
+[#|2012-09-06T08:20:25.552-0600|INFO|glassfish3.1.2|com.sun.jersey.server.impl.application.WebApplicationImpl|_ThreadID=21;_ThreadName=Thread-2;|Initiating Jersey application, version 'Jersey: 1.11.1 03/31/2012 06:49 PM'|#]
+
+[#|2012-09-06T08:21:03.804-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.admin.rest.adapter|_ThreadID=21;_ThreadName=Thread-2;|REST00001: Listening to REST requests at context: /management/domain|#]
+
+[#|2012-09-06T08:21:05.244-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=20;_ThreadName=Thread-2;|WEB0671: Loading application [__admingui] at [/]|#]
+
+[#|2012-09-06T08:21:05.246-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=20;_ThreadName=Thread-2;|CORE10010: Loading application __admingui done in 201,054 ms|#]
+
+[#|2012-09-06T08:21:05.246-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=20;_ThreadName=Thread-2;|The Admin Console application is loaded.|#]
+
+[#|2012-09-06T08:21:24.074-0600|WARNING|glassfish3.1.2|org.apache.catalina.connector.Request|_ThreadID=18;_ThreadName=Thread-2;|PWC4011: Unable to set request character encoding to UTF-8 from context , because request parameters have already been read, or ServletRequest.getReader() has already been called|#]
+
+[#|2012-09-06T08:21:29.671-0600|WARNING|glassfish3.1.2|org.apache.catalina.connector.Request|_ThreadID=21;_ThreadName=Thread-2;|PWC4011: Unable to set request character encoding to UTF-8 from context , because request parameters have already been read, or ServletRequest.getReader() has already been called|#]
+
+[#|2012-09-06T08:21:30.314-0600|INFO|glassfish3.1.2|org.glassfish.admingui|_ThreadID=18;_ThreadName=Thread-2;|Redirecting to /index.jsf|#]
+
+[#|2012-09-06T08:21:32.319-0600|INFO|glassfish3.1.2|org.glassfish.admingui|_ThreadID=22;_ThreadName=Thread-2;|Admin Console: Initializing Session Attributes...|#]
+
+[#|2012-09-06T08:23:04.508-0600|SEVERE|glassfish3.1.2|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=23;_ThreadName=Thread-2;|java.lang.RuntimeException: package installed more than once: pkg://stable.glassfish.org/glassfish-full-incorporation@3.1.2.2,0-5:20120711T192230Z
+	at com.sun.pkg.client.Image.getVersionInstalled(Image.java:2104)
+	at com.sun.pkg.client.Image.hasVersionInstalled(Image.java:2117)
+	at com.sun.pkg.client.Image.access$400(Image.java:91)
+	at com.sun.pkg.client.Image$ImagePlan.proposeFmri(Image.java:387)
+	at com.sun.pkg.client.Image.makeAndEvaluateImagePlan(Image.java:1771)
+	at com.sun.pkg.client.Image.makeInstallPlan(Image.java:1751)
+	at org.glassfish.uc.admingui.UpdateCenterHandlers.getUpdateDisplayList(UpdateCenterHandlers.java:423)
+	at org.glassfish.uc.admingui.UpdateCenterHandlers.updateCountInSession(UpdateCenterHandlers.java:564)
+	at org.glassfish.uc.admingui.UcThread.run(UcThread.java:82)
+|#]
+
+[#|2012-09-06T08:58:18.525-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T08:58:18.617-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 2,201 milliseconds.|#]
+
+[#|2012-09-06T08:58:37.922-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T08:58:37.943-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=22;_ThreadName=Thread-2;|Loostra was successfully deployed in 394 milliseconds.|#]
+
+[#|2012-09-06T08:58:48.999-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T08:58:49.029-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 385 milliseconds.|#]
+
+[#|2012-09-06T09:03:43.620-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:03:43.639-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=22;_ThreadName=Thread-2;|Loostra was successfully deployed in 409 milliseconds.|#]
+
+[#|2012-09-06T09:05:42.423-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:05:42.444-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 299 milliseconds.|#]
+
+[#|2012-09-06T09:05:47.005-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=19;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:05:47.042-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-2;|Loostra was successfully deployed in 360 milliseconds.|#]
+
+[#|2012-09-06T09:05:50.916-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=21;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:05:50.932-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=21;_ThreadName=Thread-2;|Loostra was successfully deployed in 342 milliseconds.|#]
+
+[#|2012-09-06T09:05:55.165-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:05:55.183-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 278 milliseconds.|#]
+
