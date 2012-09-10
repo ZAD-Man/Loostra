@@ -7,5 +7,8 @@
 <title>Request Confirmation</title>
 </head>
 <body>
+<form>
+	Are you sure you want to request that skill?
+</form>
 </body>
 </html>
