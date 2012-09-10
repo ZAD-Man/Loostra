@@ -774,3 +774,27 @@ java.net.BindException: No free port within range: 7676=com.sun.enterprise.v3.se
 
 [#|2012-09-06T09:05:55.183-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 278 milliseconds.|#]
 
+[#|2012-09-06T09:21:28.933-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:21:28.956-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=22;_ThreadName=Thread-2;|Loostra was successfully deployed in 1,450 milliseconds.|#]
+
+[#|2012-09-06T09:21:41.692-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=18;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:21:41.707-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=18;_ThreadName=Thread-2;|Loostra was successfully deployed in 349 milliseconds.|#]
+
+[#|2012-09-06T09:28:36.037-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=21;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:28:36.054-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=21;_ThreadName=Thread-2;|Loostra was successfully deployed in 469 milliseconds.|#]
+
+[#|2012-09-06T09:41:02.383-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=21;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:41:02.404-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=21;_ThreadName=Thread-2;|Loostra was successfully deployed in 289 milliseconds.|#]
+
+[#|2012-09-06T09:47:17.045-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=19;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-06T09:47:17.060-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-2;|Loostra was successfully deployed in 309 milliseconds.|#]
+
+[#|2012-09-06T14:50:59.883-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.container.common|_ThreadID=21;_ThreadName=Thread-2;|User [admin] from host 127.0.0.1 does not have administration access|#]
+
+[#|2012-09-06T14:51:00.891-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.container.common|_ThreadID=17;_ThreadName=Thread-2;|User [admin] from host 127.0.0.1 does not have administration access|#]
+
