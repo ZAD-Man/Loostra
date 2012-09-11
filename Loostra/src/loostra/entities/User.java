@@ -21,6 +21,60 @@ public class User {
 	
 	private List<Rating> UserRating;
 	
+	private String email;
+	
+	private List<Skill> skills;
+	
+	private int birthMonth;
+	
+	private int birthYear;
+	
+	private int birthDay;
+	
+	private String password;
+	
+	private String name;
+	
+	public void setName(String fName, String mI, String lName){
+		name = fName.trim()+" "+mI.trim()+" "+lName.trim();
+	}
+	
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public int getBirthMonth() {
+		return birthMonth;
+	}
+
+	public void setBirthMonth(int birthMonth) {
+		this.birthMonth = birthMonth;
+	}
+
+	public int getBirthYear() {
+		return birthYear;
+	}
+
+	public void setBirthYear(int birthYear) {
+		this.birthYear = birthYear;
+	}
+
+	public int getBirthDay() {
+		return birthDay;
+	}
+
+	public void setBirthDay(int birthDay) {
+		this.birthDay = birthDay;
+	}
+
 	public String getUserDisplayName() {
 		return UserDisplayName;
 	}

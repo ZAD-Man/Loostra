@@ -8,6 +8,9 @@
     	<title>GlassFish JSP Page</title>
   </head>
   <body>
+  	<form method="GET" action="CreateProfile">
+  		<input type="submit" value="Create a Profile">
+  	</form>
     <form method="POST" action="HomeFeed">
     	<input type="submit" value="Replace with Login">
     </form>

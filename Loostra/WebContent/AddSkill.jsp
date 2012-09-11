@@ -4,11 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Skill</title>
 </head>
 <body>
-	<form method="POST" action="PostSkill">
-		Do skill adding form here
+	<form method="POST" action="AddSkill">
+		Skill name:
+		<input type="text" name="name"><br>
+		Skill description:<br>
+		<input type="text"  name="description"><br>
+		<input type="submit" value="Add Skill">
 	</form>
+	<form method="GET" action="HomeFeed.jsp">
+    	<input type="submit" value="Cancel">
+    </form>
 </body>
 </html>
