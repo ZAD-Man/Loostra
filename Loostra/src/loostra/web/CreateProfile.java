@@ -19,9 +19,9 @@ public class CreateProfile extends HttpServlet{
 		String firstName = (String) req.getAttribute("firstName");
 		String middleInitial = (String) req.getAttribute("middleI");
 		String lastName = (String) req.getAttribute("lastName");
-		int birthMonth = (int) req.getAttribute("month");
-		int birthDay = (int) req.getAttribute("day");
-		int birthYear = (int) req.getAttribute("year");
+		int birthMonth = (Integer) req.getAttribute("month");
+		int birthDay = (Integer) req.getAttribute("day");
+		int birthYear = (Integer) req.getAttribute("year");
 		String userName = (String) req.getAttribute("userName");
 		String email = (String) req.getAttribute("email");
 		String password = (String) req.getAttribute("password");
