@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,8 +8,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="POST" action="PostReview">
-		Do review form here
+	<h1>Review [user]</h1>
+	<form method="POST" action="AddReview">
+		Rating:
+		<select name="rating">
+			<c:forEach var="i" begin="1" end="5" step="1">
+				<option value="${i}">${i}</option>
+			</c:forEach>
+		</select>
+		<br>
+		Details (max 500 char.):
+		<input type="text" size="50" name="details" maxlength="500">
+		<br>
+		<input type="submit">		
 	</form>
 </body>
 </html>

@@ -2,6 +2,7 @@ package loostra.web;
 
 import java.io.IOException;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,15 +17,15 @@ public class CreateProfile extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String firstName = (String) req.getAttribute("firstName");
-		String middleInitial = (String) req.getAttribute("middleI");
-		String lastName = (String) req.getAttribute("lastName");
-		int birthMonth = (Integer) req.getAttribute("month");
-		int birthDay = (Integer) req.getAttribute("day");
-		int birthYear = (Integer) req.getAttribute("year");
-		String userName = (String) req.getAttribute("userName");
-		String email = (String) req.getAttribute("email");
-		String password = (String) req.getAttribute("password");
+		String firstName =  req.getParameter("firstName");
+		String middleInitial =  req.getParameter("middleI");
+		String lastName =  req.getParameter("lastName");
+		int birthMonth = Integer.parseInt(req.getParameter("month"));
+		int birthDay = Integer.parseInt(req.getParameter("day"));
+		int birthYear = Integer.parseInt(req.getParameter("year"));
+		String userName =  req.getParameter("userName");
+		String email = req.getParameter("email");
+		String password =  req.getParameter("password");
 		
 		User user = new User();
 		user.setBirthDay(birthDay);
@@ -34,7 +35,8 @@ public class CreateProfile extends HttpServlet{
 		user.setUserDisplayName(userName);
 		user.setPassword(password);
 		user.setName(firstName, middleInitial, lastName);
-		req.getRequestDispatcher("HomeFeed.jsp").forward(req, resp);
+		req.getServletContext().setAttribute("CreatedUser", user);
+		resp.sendRedirect("HomeFeed.jsp");
 	}
 
 	@Override

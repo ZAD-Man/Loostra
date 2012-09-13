@@ -921,3 +921,293 @@ java.lang.NullPointerException
 
 [#|2012-09-12T09:19:09.680-0600|INFO|glassfish3.1.2|null|_ThreadID=19;_ThreadName=Thread-2;|Domain Pinged: stable.glassfish.org|#]
 
+[#|2012-09-12T09:27:20.878-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=20;_ThreadName=Thread-2;|Server shutdown initiated|#]
+
+[#|2012-09-12T09:27:24.240-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=20;_ThreadName=Thread-2;|JMX002: JMXStartupService: Stopped JMXConnectorServer: null|#]
+
+[#|2012-09-12T09:27:24.241-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=20;_ThreadName=Thread-2;|JMX001: JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2012-09-12T09:27:24.241-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=20;_ThreadName=Thread-2;|Shutdown procedure finished|#]
+
+Sep 12, 2012 9:28:21 AM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: JVM invocation command line:
+-XX:+UnlockDiagnosticVMOptions
+-XX:PermSize=64m
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-client
+-javaagent:C:/eclipseJuno/eclipse/plugins/oracle.eclipse.runtime.glassfish.build3122_1.0.0/glassfish3/glassfish/lib/monitor/flashlight-agent.jar
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/server.policy
+-Djava.awt.headless=true
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/endorsed;C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.6.0_23/lib/ext;C:\Program Files\Java\jdk1.6.0_23/jre/lib/ext;C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/cacerts.jks
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+Sep 12, 2012 9:28:21 AM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: Successfully launched in 25 msec.
+[#|2012-09-12T09:28:25.762-0600|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build 5)|#]
+
+[#|2012-09-12T09:28:25.862-0600|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=10;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2012-09-12T09:28:26.305-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=14;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 14ms - bound to [0.0.0.0:3700]|#]
+
+[#|2012-09-12T09:28:26.306-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=15;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 115ms - bound to [0.0.0.0:8080]|#]
+
+[#|2012-09-12T09:28:26.305-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=12;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 55ms - bound to [0.0.0.0:8181]|#]
+
+[#|2012-09-12T09:28:26.305-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=13;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 25ms - bound to [0.0.0.0:4848]|#]
+
+[#|2012-09-12T09:28:26.305-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=11;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4ms - bound to [0.0.0.0:7676]|#]
+
+[#|2012-09-12T09:28:26.505-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=10;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
+
+[#|2012-09-12T09:28:27.471-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
+
+[#|2012-09-12T09:28:27.675-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
+
+[#|2012-09-12T09:28:27.679-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2012-09-12T09:28:27.784-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-09-12T09:28:27.808-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-09-12T09:28:27.817-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+
+[#|2012-09-12T09:28:27.828-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
+
+[#|2012-09-12T09:28:28.151-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:8080]|#]
+
+[#|2012-09-12T09:28:28.160-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+
+[#|2012-09-12T09:28:28.171-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+
+[#|2012-09-12T09:28:28.216-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
+
+[#|2012-09-12T09:28:28.219-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
+
+[#|2012-09-12T09:28:28.732-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
+
+[#|2012-09-12T09:28:30.559-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T09:28:30.561-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-2;|CORE10010: Loading application Loostra done in 3,965 ms|#]
+
+[#|2012-09-12T09:28:30.563-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (5) startup time : Felix (3,179ms), startup services(5,346ms), total(8,525ms)|#]
+
+[#|2012-09-12T09:28:31.432-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=16;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://DURTSC496.Student.Northface.local:8686/jndi/rmi://DURTSC496.Student.Northface.local:8686/jmxrmi|#]
+
+[#|2012-09-12T09:30:27.341-0600|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=17;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
+
+[#|2012-09-12T09:30:27.939-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T09:30:27.985-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=17;_ThreadName=Thread-2;|Loostra was successfully deployed in 714 milliseconds.|#]
+
+[#|2012-09-12T09:41:27.094-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=18;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T09:41:27.116-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=18;_ThreadName=Thread-2;|Loostra was successfully deployed in 683 milliseconds.|#]
+
+[#|2012-09-12T09:44:55.002-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=19;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T09:44:55.022-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-2;|Loostra was successfully deployed in 483 milliseconds.|#]
+
+[#|2012-09-12T09:45:10.573-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=20;_ThreadName=Thread-2;|Server shutdown initiated|#]
+
+[#|2012-09-12T09:45:13.464-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=20;_ThreadName=Thread-2;|JMX002: JMXStartupService: Stopped JMXConnectorServer: null|#]
+
+[#|2012-09-12T09:45:13.465-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=20;_ThreadName=Thread-2;|JMX001: JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2012-09-12T09:45:13.465-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=20;_ThreadName=Thread-2;|Shutdown procedure finished|#]
+
+Sep 12, 2012 9:52:17 AM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: JVM invocation command line:
+-XX:+UnlockDiagnosticVMOptions
+-XX:PermSize=64m
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-client
+-javaagent:C:/eclipseJuno/eclipse/plugins/oracle.eclipse.runtime.glassfish.build3122_1.0.0/glassfish3/glassfish/lib/monitor/flashlight-agent.jar
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/server.policy
+-Djava.awt.headless=true
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/endorsed;C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.6.0_23/lib/ext;C:\Program Files\Java\jdk1.6.0_23/jre/lib/ext;C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/cacerts.jks
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+Sep 12, 2012 9:52:17 AM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: Successfully launched in 13 msec.
+[#|2012-09-12T09:52:20.259-0600|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build 5)|#]
+
+[#|2012-09-12T09:52:20.391-0600|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=10;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2012-09-12T09:52:20.699-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=13;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 12ms - bound to [0.0.0.0:3700]|#]
+
+[#|2012-09-12T09:52:20.699-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=12;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 22ms - bound to [0.0.0.0:4848]|#]
+
+[#|2012-09-12T09:52:20.699-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=14;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 57ms - bound to [0.0.0.0:8080]|#]
+
+[#|2012-09-12T09:52:20.699-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=11;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 30ms - bound to [0.0.0.0:8181]|#]
+
+[#|2012-09-12T09:52:20.702-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=15;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4ms - bound to [0.0.0.0:7676]|#]
+
+[#|2012-09-12T09:52:20.834-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=10;_ThreadName=Thread-2;|The Admin Console is already installed, but not yet loaded.|#]
+
+[#|2012-09-12T09:52:21.710-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1002: Security Manager is OFF.|#]
+
+[#|2012-09-12T09:52:21.937-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1010: Entering Security Startup Service|#]
+
+[#|2012-09-12T09:52:21.941-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2012-09-12T09:52:22.044-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-09-12T09:52:22.071-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-09-12T09:52:22.079-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-2;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+
+[#|2012-09-12T09:52:22.089-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-2;|SEC1011: Security Service(s) Started Successfully|#]
+
+[#|2012-09-12T09:52:22.466-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:8080]|#]
+
+[#|2012-09-12T09:52:22.476-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+
+[#|2012-09-12T09:52:22.483-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+
+[#|2012-09-12T09:52:22.518-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0171: Created virtual server [server]|#]
+
+[#|2012-09-12T09:52:22.521-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0171: Created virtual server [__asadmin]|#]
+
+[#|2012-09-12T09:52:23.019-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0172: Virtual server [server] loaded default web module []|#]
+
+[#|2012-09-12T09:52:24.757-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T09:52:24.758-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-2;|CORE10010: Loading application Loostra done in 3,822 ms|#]
+
+[#|2012-09-12T09:52:24.760-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (5) startup time : Felix (2,471ms), startup services(4,846ms), total(7,317ms)|#]
+
+[#|2012-09-12T09:52:28.171-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=16;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://DURTSC496.Student.Northface.local:8686/jndi/rmi://DURTSC496.Student.Northface.local:8686/jmxrmi|#]
+
+[#|2012-09-12T09:53:23.098-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=17;_ThreadName=Thread-2;|StandardWrapperValve[loostra.web.CreateProfile]: PWC1406: Servlet.service() for servlet loostra.web.CreateProfile threw exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:417)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at loostra.web.CreateProfile.doPost(CreateProfile.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-09-12T18:04:00.232-0600|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=18;_ThreadName=Thread-2;|HV000001: Hibernate Validator 4.3.0.Final|#]
+
+[#|2012-09-12T18:04:09.137-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=18;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T18:04:10.067-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=18;_ThreadName=Thread-2;|Loostra was successfully deployed in 15,210 milliseconds.|#]
+
+[#|2012-09-12T18:04:19.225-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=19;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T18:04:19.343-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-2;|Loostra was successfully deployed in 2,401 milliseconds.|#]
+
+[#|2012-09-12T18:06:14.864-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=20;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T18:06:14.977-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=20;_ThreadName=Thread-2;|Loostra was successfully deployed in 2,898 milliseconds.|#]
+
+[#|2012-09-12T18:08:18.384-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=21;_ThreadName=Thread-2;|StandardWrapperValve[loostra.web.CreateProfile]: PWC1406: Servlet.service() for servlet loostra.web.CreateProfile threw exception
+java.lang.IllegalStateException: WEB9031: WebappClassLoader unable to load resource [loostra.entities.User], because it has not yet been started, or was already stopped
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1401)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1359)
+	at loostra.web.CreateProfile.doPost(CreateProfile.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-09-12T18:10:00.849-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-2;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-09-12T18:10:01.002-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=22;_ThreadName=Thread-2;|Loostra was successfully deployed in 2,286 milliseconds.|#]
+
+[#|2012-09-12T18:10:40.623-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=23;_ThreadName=Thread-2;|Server shutdown initiated|#]
+
+[#|2012-09-12T18:10:44.728-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=23;_ThreadName=Thread-43;|JMX002: JMXStartupService: Stopped JMXConnectorServer: null|#]
+
+[#|2012-09-12T18:10:44.729-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=23;_ThreadName=Thread-43;|JMX001: JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2012-09-12T18:10:44.730-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=23;_ThreadName=Thread-43;|Shutdown procedure finished|#]
+
