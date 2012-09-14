@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Review {
+public class UserReview {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

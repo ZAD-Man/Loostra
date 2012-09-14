@@ -18,6 +18,10 @@ public class AddReview extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//TODO: Post!
+		int rating = Integer.parseInt(request.getParameter("rating"));
+		String details = request.getParameter("details");
+		
+		
 		super.doPost(request, response);
 	}
 	
