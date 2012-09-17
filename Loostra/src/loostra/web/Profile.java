@@ -13,6 +13,6 @@ public class Profile extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//TODO: Set it up according to whether it's your own or someone else's
-		request.getRequestDispatcher("Profile.jsp").forward(request, response);
+		request.getRequestDispatcher("MyProfile.jsp").forward(request, response);
 	}
 }

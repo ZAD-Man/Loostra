@@ -1,5 +1,6 @@
 package loostra.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -23,7 +24,9 @@ public class User {
 	
 	private String email;
 	
-	private List<Skill> skills;
+	private List<Skill> skills = new ArrayList<Skill>();
+	
+	private List<Want> wants = new ArrayList<Want>();
 	
 	private int birthMonth;
 	
@@ -34,6 +37,36 @@ public class User {
 	private String password;
 	
 	private String name;
+	
+	public void addWant(String name, String description){
+		Want want = new Want();
+		want.setName(name);
+		want.addDescription(description);
+		wants.add(want);
+	}
+	
+	public List<Want> getWants(){
+		return wants;
+	}
+	
+	public void addSkill(String name, String description){
+		Skill skill = new Skill();
+		skill.setName(name);
+		skill.addDescription(description);
+		skills.add(skill);
+	}
+	
+	public List<Skill> getSkills(){
+		return skills;
+	}
+	
+	public User getUser(){
+		return this;
+	}
+	
+	public String getName(){
+		return name;
+	}
 	
 	public void setName(String fName, String mI, String lName){
 		name = fName.trim()+" "+mI.trim()+" "+lName.trim();
@@ -121,4 +154,48 @@ public class User {
 		return 0.0;
 	}
 
+}
+
+class Rating
+{
+	
+	private int RaterID;
+	
+	private Double Rating;
+
+	public Double getRating() {
+		return Rating;
+	}
+
+	public void setRating(Double rating) {
+		Rating = rating;
+	}
+}
+
+class Comment
+{
+	
+	private int CommenterID;
+	
+	private int CommentID;
+	
+	private String CommenterDisplayName;
+	
+	private String Comment;
+
+	public String getCommenterDisplayName() {
+		return CommenterDisplayName;
+	}
+
+	public void setCommenterDisplayName(String commenterDisplayName) {
+		CommenterDisplayName = commenterDisplayName;
+	}
+
+	public String getComment() {
+		return Comment;
+	}
+
+	public void setComment(String comment) {
+		Comment = comment;
+	}
 }

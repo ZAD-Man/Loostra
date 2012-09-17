@@ -1,6 +1,8 @@
 package loostra.web;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -35,7 +37,13 @@ public class CreateProfile extends HttpServlet{
 		user.setUserDisplayName(userName);
 		user.setPassword(password);
 		user.setName(firstName, middleInitial, lastName);
-		req.getServletContext().setAttribute("CreatedUser", user);
+		List<User> users = (List<User>) req.getServletContext().getAttribute("users");
+		if(users == null){
+			users = new ArrayList<User>();
+		}
+		users.add(user);
+		req.getServletContext().setAttribute("users", users);
+		req.getServletContext().setAttribute("LoginUser", user);
 		resp.sendRedirect("HomeFeed.jsp");
 	}
 

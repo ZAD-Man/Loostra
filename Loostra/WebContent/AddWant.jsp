@@ -4,11 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add a Want</title>
 </head>
 <body>
-	<form method="POST" action="PostWant">
-		Do want adding form here
+	<form method="POST" action="AddWant">
+		Abbreviated want:
+		<input type="text" name="name"><br>
+		Why do you need this:<br>
+		<input name="description">
+		<!--<textarea rows="4" cols="20" name="description"></textarea><br>-->
+		<input type="submit" value="Add Skill">
 	</form>
+	<form method="GET" action="HomeFeed.jsp">
+    	<input type="submit" value="Cancel">
+    </form>
 </body>
 </html>
