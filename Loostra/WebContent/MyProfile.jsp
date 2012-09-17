@@ -1,3 +1,4 @@
+<%@page import="loostra.entities.Skill"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@ page import="loostra.entities.User"%>
@@ -15,7 +16,22 @@
 	<!--<textarea rows="4" cols="20">Here is some text. Here is some more text.
 	</textarea><br>-->
 	<a href="./AddWant">Add Want</a><br>
-	link up with facebook
+	skills - 
+	<%if(user != null){
+		if(user.getSkills() != null || !user.getSkills().isEmpty()){
+	for(Skill s : user.getSkills()){%>
+		<%= s.getName() %>
+		<%= s.getDesc() %>
+	<%}
+	} 
+	else{%>
+	none entered yet
+	<%} 
+	}
+	else{%>
+	no user logged in
+	<%} %>
+	<br>link up with facebook
 	<iframe src="http://www.facebook.com/plugins/like.php?href=YOUR_URL"
         scrolling="no" frameborder="0"
         style="border:none; width:450px; height:80px"></iframe>
