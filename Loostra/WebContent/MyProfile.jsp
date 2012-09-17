@@ -15,5 +15,9 @@
 	<!--<textarea rows="4" cols="20">Here is some text. Here is some more text.
 	</textarea><br>-->
 	<a href="./AddWant">Add Want</a><br>
+	link up with facebook
+	<iframe src="http://www.facebook.com/plugins/like.php?href=YOUR_URL"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
 </body>
 </html>
