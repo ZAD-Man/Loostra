@@ -12,7 +12,7 @@
 		<input type="text" name="name"><br>
 		Why do you need this:<br>
 		<textarea rows="4" cols="20" name="description"></textarea><br>
-		<input type="submit" value="Add Skill">
+		<input type="submit" value="Add Want">
 	</form>
 	<form method="GET" action="HomeFeed.jsp">
     	<input type="submit" value="Cancel">
