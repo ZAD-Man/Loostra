@@ -15,11 +15,12 @@
 	</form>
 	<br>
 	<!-- Profile should be /Profile/[Username] -->
-	<%User user = (User) application.getAttribute("LoginUser"); %>
+	<%User user = (User) application.getAttribute("LoginUser");%> 
 	
 	<a href="./Profile" ><%=user.getUserDisplayName()%></a>
-	<a href="./Store">Purchase Betoons</a>
+	<a href="./Store">Purchase Talents</a>
 	<a href="./Updates">Updates</a>
+	<a href="./SeeSkills">See Skills</a>
 	
 </body>
 </html>

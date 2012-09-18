@@ -11,8 +11,7 @@
 		Abbreviated want:
 		<input type="text" name="name"><br>
 		Why do you need this:<br>
-		<input name="description">
-		<!--<textarea rows="4" cols="20" name="description"></textarea><br>-->
+		<textarea rows="4" cols="20" name="description"></textarea><br>
 		<input type="submit" value="Add Skill">
 	</form>
 	<form method="GET" action="HomeFeed.jsp">

@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	If it's another's: <br>
-	<a href="./Review">Review</a><br>
+	<form method="POST" action="Review">
+		<input type="submit" value="Review">
+	</form>
 </body>
 </html>

@@ -21,10 +21,6 @@ public class AddSkill extends HttpServlet {
 		User user = (User) req.getServletContext().getAttribute("LoginUser");
 		user.addSkill(req.getParameter("name"), req.getParameter("description"));
 		List<Skill> skills = user.getSkills();
-		for(Skill skill : skills){
-			System.out.println(skill.getName());
-			System.out.println(skill.getDesc());
-		}
 		req.getServletContext().setAttribute("LoginUser", user);
 		resp.sendRedirect("MyProfile.jsp");
 	}

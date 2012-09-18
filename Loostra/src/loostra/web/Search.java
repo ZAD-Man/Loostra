@@ -7,9 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class Search
- */
 @WebServlet("/Search")
 public class Search extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -18,5 +15,4 @@ public class Search extends HttpServlet {
 		//TODO: Do searching
 		request.getRequestDispatcher("Search.jsp").forward(request, response);
 	}
-
 }

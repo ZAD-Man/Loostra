@@ -9,69 +9,69 @@ import com.sun.org.apache.xerces.internal.impl.dv.xs.DecimalDV;
 
 @Entity
 public class User {
-	
+
 	private int UserId;
-	
+
 	private String UserDisplayName;
-	
+
 	private List<Comment> PageComment;
-	
+
 	private List<User> Following;
-	
+
 	private List<User> Followers;
-	
+
 	private List<Rating> UserRating;
-	
+
 	private String email;
-	
+
 	private List<Skill> skills = new ArrayList<Skill>();
-	
+
 	private List<Want> wants = new ArrayList<Want>();
-	
+
 	private int birthMonth;
-	
+
 	private int birthYear;
-	
+
 	private int birthDay;
-	
+
 	private String password;
-	
+
 	private String name;
-	
-	public void addWant(String name, String description){
+
+	public void addWant(String name, String description) {
 		Want want = new Want();
 		want.setName(name);
 		want.addDescription(description);
 		wants.add(want);
 	}
-	
-	public List<Want> getWants(){
+
+	public List<Want> getWants() {
 		return wants;
 	}
-	
-	public void addSkill(String name, String description){
+
+	public void addSkill(String name, String description) {
 		Skill skill = new Skill();
 		skill.setName(name);
 		skill.addDescription(description);
 		skills.add(skill);
 	}
-	
-	public List<Skill> getSkills(){
+
+	public List<Skill> getSkills() {
 		return skills;
 	}
-	
-	public User getUser(){
+
+	public User getUser() {
 		return this;
 	}
-	
-	public String getName(){
+
+	public String getName() {
 		return name;
 	}
-	
-	public void setName(String fName, String mI, String lName){
-		name = fName.trim()+" "+mI.trim()+" "+lName.trim();
+
+	public void setName(String fName, String mI, String lName) {
+		name = fName.trim() + " " + mI.trim() + " " + lName.trim();
 	}
-	
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
@@ -148,54 +148,8 @@ public class User {
 		UserRating = userRating;
 	}
 
-	public double getAverageRating()
-	{
+	public double getAverageRating() {
 
 		return 0.0;
-	}
-
-}
-
-class Rating
-{
-	
-	private int RaterID;
-	
-	private Double Rating;
-
-	public Double getRating() {
-		return Rating;
-	}
-
-	public void setRating(Double rating) {
-		Rating = rating;
-	}
-}
-
-class Comment
-{
-	
-	private int CommenterID;
-	
-	private int CommentID;
-	
-	private String CommenterDisplayName;
-	
-	private String Comment;
-
-	public String getCommenterDisplayName() {
-		return CommenterDisplayName;
-	}
-
-	public void setCommenterDisplayName(String commenterDisplayName) {
-		CommenterDisplayName = commenterDisplayName;
-	}
-
-	public String getComment() {
-		return Comment;
-	}
-
-	public void setComment(String comment) {
-		Comment = comment;
 	}
 }
