@@ -11,7 +11,8 @@
 		Skill name:
 		<input type="text" name="name"><br>
 		Skill description:<br>
-		<input type="text"  name="description"><br>
+		<!--<input name="description">-->
+		<textarea rows="4" cols="20" name="description"></textarea><br>
 		<input type="submit" value="Add Skill">
 	</form>
 	<form method="GET" action="HomeFeed.jsp">
