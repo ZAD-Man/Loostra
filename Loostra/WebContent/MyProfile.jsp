@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@ page import="loostra.entities.User"%>
+    <%@ page import="loostra.entities.Want" %>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -13,8 +14,6 @@
 	<%User user = (User) application.getAttribute("LoginUser"); %>
 	<a href="./EditProfile">Edit Profile</a><br>
 	<a href="./AddSkill">Add Skill</a><br>
-	<!--<textarea rows="4" cols="20">Here is some text. Here is some more text.
-	</textarea><br>-->
 	<a href="./AddWant">Add Want</a><br>
 	skills - 
 	<%if(user != null){
@@ -22,6 +21,22 @@
 	for(Skill s : user.getSkills()){%>
 		<b><%= s.getName() %><br></b>
 		<i><%= s.getDesc() %><br></i>
+	<%}
+	} 
+	else{%>
+	none entered yet
+	<%} 
+	}
+	else{%>
+	no user logged in
+	<%} %>
+	<br>
+	wants - 
+	<%if(user != null){
+		if(user.getWants() != null || !user.getWants().isEmpty()){
+	for(Want w : user.getWants()){%>
+		<b><%= w.getName() %><br></b>
+		<i><%= w.getDesc() %><br></i>
 	<%}
 	} 
 	else{%>

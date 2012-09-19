@@ -69,6 +69,7 @@ User user = (User) application.getAttribute("LoginUser");
       out.write("\t<a href=\"./Store\">Purchase Talents</a>\r\n");
       out.write("\t<a href=\"./Updates\">Updates</a>\r\n");
       out.write("\t<a href=\"./SeeSkills\">See Skills</a>\r\n");
+      out.write("\t<a href=\"./SeeWants\">See Wants</a>\r\n");
       out.write("\t\r\n");
       out.write("</body>\r\n");
       out.write("</html>");

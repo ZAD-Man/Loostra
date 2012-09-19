@@ -10,7 +10,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%List<User> users = (List<User>) application.getAttribute("users"); %>
 	<c:forEach var="i" items="<%=(List<User>) application.getAttribute("users") %>">
 		${i.getUserDisplayName()}<br>
 		<c:forEach var ="j" items="${i.getSkills()}">

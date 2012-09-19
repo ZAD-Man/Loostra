@@ -20,7 +20,7 @@ public class Want {
 		return name;
 	}
 	
-	public String getDescription(){
+	public String getDesc(){
 		return description;
 	}
 }

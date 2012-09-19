@@ -21,6 +21,7 @@
 	<a href="./Store">Purchase Talents</a>
 	<a href="./Updates">Updates</a>
 	<a href="./SeeSkills">See Skills</a>
+	<a href="./SeeWants">See Wants</a>
 	
 </body>
 </html>

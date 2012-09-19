@@ -5,6 +5,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import loostra.entities.Skill;
 import loostra.entities.User;
+import loostra.entities.Want;
 
 public final class MyProfile_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
@@ -48,6 +49,7 @@ public final class MyProfile_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("    \r\n");
       out.write("    \r\n");
+      out.write("    \r\n");
       out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
@@ -60,8 +62,6 @@ User user = (User) application.getAttribute("LoginUser");
       out.write("\r\n");
       out.write("\t<a href=\"./EditProfile\">Edit Profile</a><br>\r\n");
       out.write("\t<a href=\"./AddSkill\">Add Skill</a><br>\r\n");
-      out.write("\t<!--<textarea rows=\"4\" cols=\"20\">Here is some text. Here is some more text.\r\n");
-      out.write("\t</textarea><br>-->\r\n");
       out.write("\t<a href=\"./AddWant\">Add Want</a><br>\r\n");
       out.write("\tskills - \r\n");
       out.write("\t");
@@ -74,6 +74,34 @@ if(user != null){
       out.write("<br></b>\r\n");
       out.write("\t\t<i>");
       out.print( s.getDesc() );
+      out.write("<br></i>\r\n");
+      out.write("\t");
+}
+	} 
+	else{
+      out.write("\r\n");
+      out.write("\tnone entered yet\r\n");
+      out.write("\t");
+} 
+	}
+	else{
+      out.write("\r\n");
+      out.write("\tno user logged in\r\n");
+      out.write("\t");
+} 
+      out.write("\r\n");
+      out.write("\t<br>\r\n");
+      out.write("\twants - \r\n");
+      out.write("\t");
+if(user != null){
+		if(user.getWants() != null || !user.getWants().isEmpty()){
+	for(Want w : user.getWants()){
+      out.write("\r\n");
+      out.write("\t\t<b>");
+      out.print( w.getName() );
+      out.write("<br></b>\r\n");
+      out.write("\t\t<i>");
+      out.print( w.getDesc() );
       out.write("<br></i>\r\n");
       out.write("\t");
 }

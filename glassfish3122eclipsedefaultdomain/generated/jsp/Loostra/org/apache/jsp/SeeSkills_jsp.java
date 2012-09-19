@@ -66,9 +66,6 @@ public final class SeeSkills_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       out.write("\t");
-List<User> users = (List<User>) application.getAttribute("users"); 
-      out.write("\r\n");
-      out.write("\t");
       //  c:forEach
       org.apache.taglibs.standard.tag.rt.core.ForEachTag _jspx_th_c_forEach_0 = (org.apache.taglibs.standard.tag.rt.core.ForEachTag) _jspx_tagPool_c_forEach_var_items.get(org.apache.taglibs.standard.tag.rt.core.ForEachTag.class);
       _jspx_th_c_forEach_0.setPageContext(_jspx_page_context);
