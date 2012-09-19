@@ -1,0 +1,1 @@
+To run, open in Eclipse and run with Glassfish. Currently, no additional set up is needed.
