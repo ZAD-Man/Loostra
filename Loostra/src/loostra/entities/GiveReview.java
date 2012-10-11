@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class SkillReview {
+public class GiveReview {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "skillRequest_id", unique = true, nullable = false)
@@ -18,7 +18,7 @@ public class SkillReview {
 	private User reviewer;
 
 	@ManyToOne
-	private Skill reviewedSkill;
+	private Give reviewedSkill;
 
 	private String reviewText;
 
@@ -38,11 +38,11 @@ public class SkillReview {
 		this.reviewer = reviewer;
 	}
 
-	public Skill getReviewedSkill() {
+	public Give getReviewedSkill() {
 		return reviewedSkill;
 	}
 
-	public void setReviewedSkill(Skill reviewedSkill) {
+	public void setReviewedSkill(Give reviewedSkill) {
 		this.reviewedSkill = reviewedSkill;
 	}
 

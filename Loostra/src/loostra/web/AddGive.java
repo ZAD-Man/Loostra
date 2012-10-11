@@ -9,18 +9,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import loostra.entities.Skill;
+import loostra.entities.Give;
 import loostra.entities.User;
 
 @WebServlet("/AddSkill")
-public class AddSkill extends HttpServlet {
+public class AddGive extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		User user = (User) req.getServletContext().getAttribute("LoginUser");
-		user.addSkill(req.getParameter("name"), req.getParameter("description"));
-		List<Skill> skills = user.getSkills();
+		user.addGive(req.getParameter("name"), req.getParameter("description"));
+		List<Give> gives = user.getGives();
 		req.getServletContext().setAttribute("LoginUser", user);
 		resp.sendRedirect("MyProfile.jsp");
 	}

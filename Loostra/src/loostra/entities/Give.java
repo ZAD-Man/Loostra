@@ -3,7 +3,7 @@ package loostra.entities;
 import javax.persistence.Entity;
 
 @Entity
-public class Skill {
+public class Give {
 	private String name;
 	
 	private String description;

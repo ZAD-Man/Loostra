@@ -24,7 +24,7 @@ public class User {
 
 	private String email;
 
-	private List<Skill> skills = new ArrayList<Skill>();
+	private List<Give> gives = new ArrayList<Give>();
 
 	private List<Want> wants = new ArrayList<Want>();
 
@@ -49,15 +49,15 @@ public class User {
 		return wants;
 	}
 
-	public void addSkill(String name, String description) {
-		Skill skill = new Skill();
-		skill.setName(name);
-		skill.addDescription(description);
-		skills.add(skill);
+	public void addGive(String name, String description) {
+		Give give = new Give();
+		give.setName(name);
+		give.addDescription(description);
+		gives.add(give);
 	}
 
-	public List<Skill> getSkills() {
-		return skills;
+	public List<Give> getGives() {
+		return gives;
 	}
 
 	public User getUser() {

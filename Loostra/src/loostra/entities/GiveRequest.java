@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "skillRequests")
-public class SkillRequest implements Serializable{
+public class GiveRequest implements Serializable{
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,7 +20,7 @@ public class SkillRequest implements Serializable{
 	private User skillGiver;
 	
 	@ManyToOne(optional = false)
-	private Skill requestedSkill;
+	private Give requestedSkill;
 
 	public int getSkillRequestId() {
 		return skillRequestId;
@@ -46,11 +46,11 @@ public class SkillRequest implements Serializable{
 		this.skillGiver = skillGiver;
 	}
 
-	public Skill getRequestedSkill() {
+	public Give getRequestedSkill() {
 		return requestedSkill;
 	}
 
-	public void setRequestedSkill(Skill requestedSkill) {
+	public void setRequestedSkill(Give requestedSkill) {
 		this.requestedSkill = requestedSkill;
 	}
 	
