@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import loostra.entities.Give;
 import loostra.entities.User;
 
-@WebServlet("/AddSkill")
+@WebServlet("/AddGive")
 public class AddGive extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -26,7 +26,7 @@ public class AddGive extends HttpServlet {
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("AddSkill.jsp").forward(request, response);
+		request.getRequestDispatcher("AddGive.jsp").forward(request, response);
 	}
 
 }

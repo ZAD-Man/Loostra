@@ -15529,3 +15529,288 @@ INFO: Successfully launched in 8 msec.
 
 [#|2012-09-19T00:05:29.610-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=102;_ThreadName=Thread-44;|Shutdown procedure finished|#]
 
+Oct 11, 2012 3:18:45 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: JVM invocation command line:
+-XX:+UnlockDiagnosticVMOptions
+-XX:PermSize=64m
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-client
+-javaagent:C:/eclipseJuno/eclipse/plugins/oracle.eclipse.runtime.glassfish.build3122_1.0.0/glassfish3/glassfish/lib/monitor/flashlight-agent.jar
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/server.policy
+-Djava.awt.headless=true
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/modules/endorsed;C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\eclipseJuno\eclipse\plugins\oracle.eclipse.runtime.glassfish.build3122_1.0.0\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.6.0_23/lib/ext;C:\Program Files\Java\jdk1.6.0_23/jre/lib/ext;C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/cacerts.jks
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+Oct 11, 2012 3:18:46 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: Successfully launched in 126 msec.
+[#|2012-10-11T15:19:35.082-0600|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-3;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build 5)|#]
+
+[#|2012-10-11T15:19:35.318-0600|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=10;_ThreadName=Thread-3;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2012-10-11T15:19:37.249-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=11;_ThreadName=Thread-3;|Grizzly Framework 1.9.50 started in: 136ms - bound to [0.0.0.0:7676]|#]
+
+[#|2012-10-11T15:19:37.250-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=13;_ThreadName=Thread-3;|Grizzly Framework 1.9.50 started in: 191ms - bound to [0.0.0.0:4848]|#]
+
+[#|2012-10-11T15:19:37.250-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=14;_ThreadName=Thread-3;|Grizzly Framework 1.9.50 started in: 519ms - bound to [0.0.0.0:8080]|#]
+
+[#|2012-10-11T15:19:37.250-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=15;_ThreadName=Thread-3;|Grizzly Framework 1.9.50 started in: 222ms - bound to [0.0.0.0:8181]|#]
+
+[#|2012-10-11T15:19:37.249-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=12;_ThreadName=Thread-3;|Grizzly Framework 1.9.50 started in: 158ms - bound to [0.0.0.0:3700]|#]
+
+[#|2012-10-11T15:19:37.564-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.admin.adapter|_ThreadID=10;_ThreadName=Thread-3;|The Admin Console is already installed, but not yet loaded.|#]
+
+[#|2012-10-11T15:19:40.791-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-3;|SEC1002: Security Manager is OFF.|#]
+
+[#|2012-10-11T15:19:41.145-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-3;|SEC1010: Entering Security Startup Service|#]
+
+[#|2012-10-11T15:19:41.154-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-3;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2012-10-11T15:19:41.392-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-3;|SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-10-11T15:19:41.411-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-3;|SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2012-10-11T15:19:41.434-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security.auth.realm|_ThreadID=10;_ThreadName=Thread-3;|SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+
+[#|2012-10-11T15:19:41.465-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.security.com.sun.enterprise.security|_ThreadID=10;_ThreadName=Thread-3;|SEC1011: Security Service(s) Started Successfully|#]
+
+[#|2012-10-11T15:19:42.205-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:8080]|#]
+
+[#|2012-10-11T15:19:42.230-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+
+[#|2012-10-11T15:19:42.245-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+
+[#|2012-10-11T15:19:42.418-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0171: Created virtual server [server]|#]
+
+[#|2012-10-11T15:19:42.428-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0171: Created virtual server [__asadmin]|#]
+
+[#|2012-10-11T15:19:43.644-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=10;_ThreadName=Thread-3;|WEB0172: Virtual server [server] loaded default web module []|#]
+
+[#|2012-10-11T15:19:49.337-0600|SEVERE|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-3;|Exception while deploying the app [Loostra]|#]
+
+[#|2012-10-11T15:19:49.337-0600|SEVERE|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-3;|WEB9032: Class loostra.web.HomeFeed has unsupported major or minor version numbers, which are greater than those found in the Java Runtime Environment version 1.6.0_23
+java.lang.UnsupportedClassVersionError: WEB9032: Class loostra.web.HomeFeed has unsupported major or minor version numbers, which are greater than those found in the Java Runtime Environment version 1.6.0_23
+	at org.glassfish.web.loader.WebappClassLoader.findClass(WebappClassLoader.java:950)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1476)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1359)
+	at com.sun.enterprise.deployment.annotation.impl.ModuleScanner.getElements(ModuleScanner.java:246)
+	at com.sun.enterprise.deployment.archivist.Archivist.processAnnotations(Archivist.java:557)
+	at com.sun.enterprise.deployment.archivist.Archivist.readAnnotations(Archivist.java:442)
+	at com.sun.enterprise.deployment.archivist.Archivist.readAnnotations(Archivist.java:429)
+	at com.sun.enterprise.deployment.archivist.Archivist.readRestDeploymentDescriptors(Archivist.java:405)
+	at com.sun.enterprise.deployment.archivist.Archivist.readDeploymentDescriptors(Archivist.java:380)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:243)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:252)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:213)
+	at com.sun.enterprise.deployment.archivist.ApplicationFactory.openArchive(ApplicationFactory.java:165)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:185)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:94)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.loadDeployer(ApplicationLifecycle.java:827)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.setupContainerInfos(ApplicationLifecycle.java:769)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:368)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.processApplication(ApplicationLoaderService.java:375)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.postConstruct(ApplicationLoaderService.java:219)
+	at com.sun.hk2.component.AbstractCreatorImpl.inject(AbstractCreatorImpl.java:131)
+	at com.sun.hk2.component.ConstructorCreator.initialize(ConstructorCreator.java:91)
+	at com.sun.hk2.component.AbstractCreatorImpl.get(AbstractCreatorImpl.java:82)
+	at com.sun.hk2.component.SingletonInhabitant.get(SingletonInhabitant.java:67)
+	at com.sun.hk2.component.EventPublishingInhabitant.get(EventPublishingInhabitant.java:139)
+	at com.sun.hk2.component.AbstractInhabitantImpl.get(AbstractInhabitantImpl.java:78)
+	at com.sun.enterprise.v3.server.AppServerStartup.run(AppServerStartup.java:253)
+	at com.sun.enterprise.v3.server.AppServerStartup.doStart(AppServerStartup.java:145)
+	at com.sun.enterprise.v3.server.AppServerStartup.start(AppServerStartup.java:136)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishImpl.start(GlassFishImpl.java:79)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishDecorator.start(GlassFishDecorator.java:63)
+	at com.sun.enterprise.glassfish.bootstrap.osgi.OSGiGlassFishImpl.start(OSGiGlassFishImpl.java:69)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishMain$Launcher.launch(GlassFishMain.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.sun.enterprise.glassfish.bootstrap.GlassFishMain.main(GlassFishMain.java:97)
+	at com.sun.enterprise.glassfish.bootstrap.ASMain.main(ASMain.java:55)
+|#]
+
+[#|2012-10-11T15:19:49.842-0600|SEVERE|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-3;|Exception while deploying the app [Loostra]|#]
+
+[#|2012-10-11T15:19:49.845-0600|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=10;_ThreadName=Thread-3;|GlassFish Server Open Source Edition 3.1.2.2 (5) startup time : Felix (45,551ms), startup services(17,636ms), total(63,187ms)|#]
+
+[#|2012-10-11T15:19:53.990-0600|INFO|glassfish3.1.2|org.hibernate.validator.internal.util.Version|_ThreadID=16;_ThreadName=Thread-3;|HV000001: Hibernate Validator 4.3.0.Final|#]
+
+[#|2012-10-11T15:19:56.535-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=16;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:19:56.620-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=16;_ThreadName=Thread-3;|Loostra was successfully deployed in 2,925 milliseconds.|#]
+
+[#|2012-10-11T15:20:00.688-0600|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=17;_ThreadName=Thread-3;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://DURTSC496.Student.Northface.local:8686/jndi/rmi://DURTSC496.Student.Northface.local:8686/jmxrmi|#]
+
+[#|2012-10-11T15:22:01.128-0600|INFO|glassfish3.1.2|null|_ThreadID=18;_ThreadName=Thread-3;|Domain Pinged: stable.glassfish.org|#]
+
+[#|2012-10-11T15:23:10.269-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=19;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:23:10.318-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=19;_ThreadName=Thread-3;|Loostra was successfully deployed in 1,848 milliseconds.|#]
+
+[#|2012-10-11T15:23:41.206-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=20;_ThreadName=Thread-3;|StandardWrapperValve[loostra.web.AddWant]: PWC1406: Servlet.service() for servlet loostra.web.AddWant threw exception
+java.lang.NullPointerException
+	at loostra.web.AddWant.doPost(AddWant.java:18)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-10-11T15:24:04.871-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=21;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:24:05.094-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=21;_ThreadName=Thread-3;|Loostra was successfully deployed in 1,411 milliseconds.|#]
+
+[#|2012-10-11T15:24:15.254-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-3;|StandardWrapperValve[loostra.web.AddWant]: PWC1406: Servlet.service() for servlet loostra.web.AddWant threw exception
+java.lang.NullPointerException
+	at loostra.web.AddWant.doPost(AddWant.java:18)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-10-11T15:25:09.944-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=23;_ThreadName=Thread-3;|StandardWrapperValve[loostra.web.AddWant]: PWC1406: Servlet.service() for servlet loostra.web.AddWant threw exception
+java.lang.NullPointerException
+	at loostra.web.AddWant.doPost(AddWant.java:18)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-10-11T15:25:31.178-0600|SEVERE|glassfish3.1.2|org.apache.jasper.servlet.JspServlet|_ThreadID=24;_ThreadName=Thread-3;|PWC6117: File "C:\Users\zdurtschi\Documents\GitHub\Loostra\glassfish3122eclipsedefaultdomain\eclipseApps\Loostra\SeeSkills.jsp" not found|#]
+
+[#|2012-10-11T15:25:36.611-0600|WARNING|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=22;_ThreadName=Thread-3;|StandardWrapperValve[jsp]: PWC1406: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.HomeFeed_jsp._jspService(HomeFeed_jsp.java from :67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1550)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:281)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:655)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:161)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:331)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:231)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$AdapterCallable.call(ContainerMapper.java:317)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:195)
+	at com.sun.grizzly.http.ProcessorTask.invokeAdapter(ProcessorTask.java:860)
+	at com.sun.grizzly.http.ProcessorTask.doProcess(ProcessorTask.java:757)
+	at com.sun.grizzly.http.ProcessorTask.process(ProcessorTask.java:1056)
+	at com.sun.grizzly.http.DefaultProtocolFilter.execute(DefaultProtocolFilter.java:229)
+	at com.sun.grizzly.DefaultProtocolChain.executeProtocolFilter(DefaultProtocolChain.java:137)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:104)
+	at com.sun.grizzly.DefaultProtocolChain.execute(DefaultProtocolChain.java:90)
+	at com.sun.grizzly.http.HttpProtocolChain.execute(HttpProtocolChain.java:79)
+	at com.sun.grizzly.ProtocolChainContextTask.doCall(ProtocolChainContextTask.java:54)
+	at com.sun.grizzly.SelectionKeyContextTask.call(SelectionKeyContextTask.java:59)
+	at com.sun.grizzly.ContextTask.run(ContextTask.java:71)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:532)
+	at com.sun.grizzly.util.AbstractThreadPool$Worker.run(AbstractThreadPool.java:513)
+	at java.lang.Thread.run(Thread.java:662)
+|#]
+
+[#|2012-10-11T15:26:13.092-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=25;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:26:13.177-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=25;_ThreadName=Thread-3;|Loostra was successfully deployed in 1,152 milliseconds.|#]
+
+[#|2012-10-11T15:26:27.612-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=26;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:26:27.660-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=26;_ThreadName=Thread-3;|Loostra was successfully deployed in 860 milliseconds.|#]
+
+[#|2012-10-11T15:26:51.334-0600|INFO|glassfish3.1.2|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=16;_ThreadName=Thread-3;|WEB0671: Loading application [Loostra] at [/Loostra]|#]
+
+[#|2012-10-11T15:26:51.409-0600|INFO|glassfish3.1.2|javax.enterprise.system.tools.admin.org.glassfish.deployment.admin|_ThreadID=16;_ThreadName=Thread-3;|Loostra was successfully deployed in 1,175 milliseconds.|#]
+

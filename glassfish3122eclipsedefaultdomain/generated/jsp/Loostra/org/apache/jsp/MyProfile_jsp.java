@@ -3,7 +3,7 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import loostra.entities.Skill;
+import loostra.entities.Give;
 import loostra.entities.User;
 import loostra.entities.Want;
 
@@ -47,9 +47,9 @@ public final class MyProfile_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\r\n");
       out.write("\r\n");
-      out.write("    \r\n");
-      out.write("    \r\n");
-      out.write("    \r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
       out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
@@ -61,19 +61,19 @@ public final class MyProfile_jsp extends org.apache.jasper.runtime.HttpJspBase
 User user = (User) application.getAttribute("LoginUser"); 
       out.write("\r\n");
       out.write("\t<a href=\"./EditProfile\">Edit Profile</a><br>\r\n");
-      out.write("\t<a href=\"./AddSkill\">Add Skill</a><br>\r\n");
+      out.write("\t<a href=\"./AddGive\">Add Give</a><br>\r\n");
       out.write("\t<a href=\"./AddWant\">Add Want</a><br>\r\n");
-      out.write("\tskills - \r\n");
+      out.write("\tgives - \r\n");
       out.write("\t");
 if(user != null){
-		if(user.getSkills() != null || !user.getSkills().isEmpty()){
-	for(Skill s : user.getSkills()){
+		if(user.getGives() != null || !user.getGives().isEmpty()){
+	for(Give g : user.getGives()){
       out.write("\r\n");
       out.write("\t\t<b>");
-      out.print( s.getName() );
+      out.print( g.getName() );
       out.write("<br></b>\r\n");
       out.write("\t\t<i>");
-      out.print( s.getDesc() );
+      out.print( g.getDesc() );
       out.write("<br></i>\r\n");
       out.write("\t");
 }
@@ -124,7 +124,8 @@ if(user != null){
       out.write("        style=\"border:none; width:450px; height:80px\"></iframe>\r\n");
       out.write("        -->\r\n");
       out.write("</body>\r\n");
-      out.write("</html>");
+      out.write("</html>\r\n");
+      out.write("\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

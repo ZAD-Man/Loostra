@@ -1,9 +1,9 @@
-<%@page import="loostra.entities.Skill"%>
+<%@page import="loostra.entities.Give"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@ page import="loostra.entities.User"%>
-    <%@ page import="loostra.entities.Want" %>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	pageEncoding="ISO-8859-1"%>
+<%@ page import="loostra.entities.User"%>
+<%@ page import="loostra.entities.Want"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -13,14 +13,14 @@
 <body>
 	<%User user = (User) application.getAttribute("LoginUser"); %>
 	<a href="./EditProfile">Edit Profile</a><br>
-	<a href="./AddSkill">Add Skill</a><br>
+	<a href="./AddGive">Add Give</a><br>
 	<a href="./AddWant">Add Want</a><br>
-	skills - 
+	gives - 
 	<%if(user != null){
-		if(user.getSkills() != null || !user.getSkills().isEmpty()){
-	for(Skill s : user.getSkills()){%>
-		<b><%= s.getName() %><br></b>
-		<i><%= s.getDesc() %><br></i>
+		if(user.getGives() != null || !user.getGives().isEmpty()){
+	for(Give g : user.getGives()){%>
+		<b><%= g.getName() %><br></b>
+		<i><%= g.getDesc() %><br></i>
 	<%}
 	} 
 	else{%>
@@ -53,3 +53,4 @@
         -->
 </body>
 </html>
+

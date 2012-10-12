@@ -13,7 +13,7 @@
 <body>
 	<%User user = (User) application.getAttribute("LoginUser"); %>
 	<a href="./EditProfile">Edit Profile</a><br>
-	<a href="./AddSkill">Add Skill</a><br>
+	<a href="./AddGive">Add Give</a><br>
 	<a href="./AddWant">Add Want</a><br>
 	gives - 
 	<%if(user != null){

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/MakeSkillRequest")
+@WebServlet("/MakeGiveRequest")
 public class MakeGiveRequest extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
